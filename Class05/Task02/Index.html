@@ -10,12 +10,22 @@
   <title>Магазин телефонов</title>
 </head>
 <body>
+<form action="">
+<p><b><font color="red">Личные данные</font></b></p>
+<hr>
+<lable for="Username">Username:<br>
+<input type="text" name="Username" id="name"><br>
+<lable for="Password">Password:<br>
+<input type="text" name="Password" id="password"><br>
+<input type="button" name="submit" value="Войти"><br>
+</form>
+<br>
   <h1>Магазин сотовых телефонов "У дяди Вади"</h1>
-  <p>интернет-магазин гаджетов, где легко совершить выгодные покупки по разумным ценам. Высокое качество товаров и сервиса гарантируется!</p>
+  <p>Интернет-магазин гаджетов, где легко совершить выгодные покупки по разумным ценам. Высокое качество товаров и сервиса гарантируется!</p>
   <h3>Почему мы?</h3>
   <p>Всё просто! У нас выгодно покупать: мы отслеживаем рынок цен и стараемся делать выгодные предложения. Наши сотрудники — это специалисты с большим опытом работы, которые ответят на все вопросы, связанные с выбором любого товара из нашего каталога.  Мы заботимся о том, чтобы каждый покупатель смог найти товар, который лучше всего отвечает его потребностям и финансовым возможностям.</p>
   <h3>Наши товары:</h3>
-  <table border="1" width="80%" cellpadding="5">
+  <table border="1" width="90%" cellpadding="5">
    <tr>
     <th>Наименование товара, фото</th>
     <th>Тип устройства</th>
@@ -24,112 +34,112 @@
      <th>Стоимость</th>
         </tr>
    <tr>
-    <td><a href="product.html">Nokia N-Gage QD</a><p><img src="/img/NgageQD.jpg" alt="NgageQD"></p></td>
+    <td><a href="product.html#NGage">Nokia N-Gage QD</a><p><img src="img/NgageQD.jpg" alt="NgageQD"></p></td>
     <td>Смартфон</td>
      <td>Попытка компании Nokia выпустить гибридное устройство, совмещающее в себе функции портативной игровой приставки и телефона</td>
-     <td><div class="rating_block">
-  <input name="rating" value="5" id="rating_5" type="radio" />
-  <label for="rating_5" class="label_rating"></label>
- 
-  <input name="rating" value="4" id="rating_4" type="radio" />
-  <label for="rating_4" class="label_rating"></label>
- 
-  <input name="rating" value="3" id="rating_3" type="radio" />
-  <label for="rating_3" class="label_rating"></label>
- 
-  <input name="rating" value="2" id="rating_2" type="radio" />
-  <label for="rating_2" class="label_rating"></label>
- 
-  <input name="rating" value="1" id="rating_1" type="radio" />
-  <label for="rating_1" class="label_rating"></label>
+     <td><div id="reviewStars-input">
+    <input id="star-4" type="radio" name="reviewStars"/>
+    <label title="gorgeous" for="star-4"></label>
+
+    <input id="star-3" type="radio" name="reviewStars"/>
+    <label title="good" for="star-3"></label>
+
+    <input id="star-2" type="radio" name="reviewStars"/>
+    <label title="regular" for="star-2"></label>
+
+    <input id="star-1" type="radio" name="reviewStars"/>
+    <label title="poor" for="star-1"></label>
+
+    <input id="star-0" type="radio" name="reviewStars"/>
+    <label title="bad" for="star-0"></label>
 </div></td>
      <td>1`000`000 USD</td>
      </tr>
      <tr>
-    <td><a href="product.html">Ericsson R310s</a><p><img src="/img/r310.jpg" alt="Ericsson R310s"></p></td>
+    <td><a href="product.html#R310s">Ericsson R310s</a><p><img src="img/r310.jpg" alt="Ericsson R310s"></p></td>
     <td>Сотовый телефон</td>
      <td>Специально для людей, ведущих активный образ жизни, компанией Ericsson выпущен влагопылезащищенный и ударопрочный аппарат Ericsson R310s.</td>
-     <td><div class="rating_block">
-  <input name="rating" value="5" id="rating_5" type="radio" />
-  <label for="rating_5" class="label_rating"></label>
- 
-  <input name="rating" value="4" id="rating_4" type="radio" />
-  <label for="rating_4" class="label_rating"></label>
- 
-  <input name="rating" value="3" id="rating_3" type="radio" />
-  <label for="rating_3" class="label_rating"></label>
- 
-  <input name="rating" value="2" id="rating_2" type="radio" />
-  <label for="rating_2" class="label_rating"></label>
- 
-  <input name="rating" value="1" id="rating_1" type="radio" />
-  <label for="rating_1" class="label_rating"></label>
+     <td><div id="reviewStars-input">
+    <input id="star-4" type="radio" name="reviewStars"/>
+    <label title="gorgeous" for="star-4"></label>
+
+    <input id="star-3" type="radio" name="reviewStars"/>
+    <label title="good" for="star-3"></label>
+
+    <input id="star-2" type="radio" name="reviewStars"/>
+    <label title="regular" for="star-2"></label>
+
+    <input id="star-1" type="radio" name="reviewStars"/>
+    <label title="poor" for="star-1"></label>
+
+    <input id="star-0" type="radio" name="reviewStars"/>
+    <label title="bad" for="star-0"></label>
 </div></td>
      <td>1`000`000 USD</td>
      </tr>
     <tr>
-    <td><a href="product.html">Sony J70</a><p><img src="/img/sonyj70.jpg" alt="Sony J70"></p></td>
+    <td><a href="product.html#J70">Sony J70</a><p><img src="img/sonyj70.jpg" alt="Sony J70"></p></td>
     <td>Сотовый телефон</td>
      <td>Модель телефона с индексом J70 от компании Sony</td>
-     <td><div class="rating_block">
-  <input name="rating" value="5" id="rating_5" type="radio" />
-  <label for="rating_5" class="label_rating"></label>
- 
-  <input name="rating" value="4" id="rating_4" type="radio" />
-  <label for="rating_4" class="label_rating"></label>
- 
-  <input name="rating" value="3" id="rating_3" type="radio" />
-  <label for="rating_3" class="label_rating"></label>
- 
-  <input name="rating" value="2" id="rating_2" type="radio" />
-  <label for="rating_2" class="label_rating"></label>
- 
-  <input name="rating" value="1" id="rating_1" type="radio" />
-  <label for="rating_1" class="label_rating"></label>
+     <td><div id="reviewStars-input">
+    <input id="star-4" type="radio" name="reviewStars"/>
+    <label title="gorgeous" for="star-4"></label>
+
+    <input id="star-3" type="radio" name="reviewStars"/>
+    <label title="good" for="star-3"></label>
+
+    <input id="star-2" type="radio" name="reviewStars"/>
+    <label title="regular" for="star-2"></label>
+
+    <input id="star-1" type="radio" name="reviewStars"/>
+    <label title="poor" for="star-1"></label>
+
+    <input id="star-0" type="radio" name="reviewStars"/>
+    <label title="bad" for="star-0"></label>
 </div></td>
      <td>1`000`000 USD</td>
      </tr>
     <tr>
-    <td><a href="product.html">Nokia 3310</a><p><img src="/img/nokia3310.jpg" alt="Nokia 3310"></p></td>
+    <td><a href="product.html#3310">Nokia 3310</a><p><img src="img/nokia3310.jpg" alt="Nokia 3310"></p></td>
     <td>Сотовый телефон</td>
      <td>Nokia 3310 — компактный, хотя довольно тяжёлый (133 г) аппарат с монохромным жидкокристаллическим дисплеем</td>
-     <td><div class="rating_block">
-  <input name="rating" value="5" id="rating_5" type="radio" />
-  <label for="rating_5" class="label_rating"></label>
- 
-  <input name="rating" value="4" id="rating_4" type="radio" />
-  <label for="rating_4" class="label_rating"></label>
- 
-  <input name="rating" value="3" id="rating_3" type="radio" />
-  <label for="rating_3" class="label_rating"></label>
- 
-  <input name="rating" value="2" id="rating_2" type="radio" />
-  <label for="rating_2" class="label_rating"></label>
- 
-  <input name="rating" value="1" id="rating_1" type="radio" />
-  <label for="rating_1" class="label_rating"></label>
+     <td><div id="reviewStars-input">
+    <input id="star-4" type="radio" name="reviewStars"/>
+    <label title="gorgeous" for="star-4"></label>
+
+    <input id="star-3" type="radio" name="reviewStars"/>
+    <label title="good" for="star-3"></label>
+
+    <input id="star-2" type="radio" name="reviewStars"/>
+    <label title="regular" for="star-2"></label>
+
+    <input id="star-1" type="radio" name="reviewStars"/>
+    <label title="poor" for="star-1"></label>
+
+    <input id="star-0" type="radio" name="reviewStars"/>
+    <label title="bad" for="star-0"></label>
 </div></td>
      <td>1`000`000 USD</td>
      </tr>
     <tr>
-    <td><a href="product.html">Siemens C65</a><p><img src="/img/siemens.jpg" alt="Siemens C65"></p></td>
+    <td><a href="product.html#C65">Siemens C65</a><p><img src="img/siemens.jpg" alt="Siemens C65"></p></td>
     <td>Сотовый телефон</td>
      <td>Стильный мобильный телефон, обладающий широкими мультимедийными возможностями.</td>
-     <td><div class="rating_block">
-  <input name="rating" value="5" id="rating_5" type="radio" />
-  <label for="rating_5" class="label_rating"></label>
- 
-  <input name="rating" value="4" id="rating_4" type="radio" />
-  <label for="rating_4" class="label_rating"></label>
- 
-  <input name="rating" value="3" id="rating_3" type="radio" />
-  <label for="rating_3" class="label_rating"></label>
- 
-  <input name="rating" value="2" id="rating_2" type="radio" />
-  <label for="rating_2" class="label_rating"></label>
- 
-  <input name="rating" value="1" id="rating_1" type="radio" />
-  <label for="rating_1" class="label_rating"></label>
+     <td><div id="reviewStars-input">
+    <input id="star-4" type="radio" name="reviewStars"/>
+    <label title="gorgeous" for="star-4"></label>
+
+    <input id="star-3" type="radio" name="reviewStars"/>
+    <label title="good" for="star-3"></label>
+
+    <input id="star-2" type="radio" name="reviewStars"/>
+    <label title="regular" for="star-2"></label>
+
+    <input id="star-1" type="radio" name="reviewStars"/>
+    <label title="poor" for="star-1"></label>
+
+    <input id="star-0" type="radio" name="reviewStars"/>
+    <label title="bad" for="star-0"></label>
 </div></td>
      <td>1`000`000 USD</td>
      </tr>
