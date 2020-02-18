@@ -1,0 +1,48 @@
+body {
+  width: 210mm;
+  height:297mm;
+}
+.uname {
+  text-align: center;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 0.4;
+  padding: 10mm 0% 0% 0%	
+    }
+.department {
+  text-align: center;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 0.4;
+  padding: 0% 0% 70mm 0%
+}
+.essay {
+  text-align: center;
+  font-weight: 100;
+  font-size: 150%;
+  }
+.topic {
+ text-align: center;
+ font-weight: 100;
+ font-size: 150%;
+}
+.ntopic {
+  text-align: center;
+  font-weight: 700;
+  font-size: 130%;
+ }
+.student {
+  text-align: left;
+  font-weight: 100;
+  font-size: 130%;
+  padding: 43mm 12mm 50mm 100mm
+}
+span {
+  text-decoration: underline;
+}
+.minsk {
+  text-align: center;
+  font-weight: 100;
+  font-size: 130%;
+padding: 0% 0% 40mm 0%
+}
