@@ -1,6 +1,7 @@
 body {
   width: 210mm;
   height:297mm;
+  font: 14pt Times New Roman;
 }
 .uname {
   text-align: center;
