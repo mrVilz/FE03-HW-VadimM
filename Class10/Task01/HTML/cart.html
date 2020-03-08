@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vil.com</title>
+    <link rel="stylesheet" href="styles.css">
+   </head>
+
+<body>
+    <header>
+            <div class="shop_name">
+                <h1>Vil.com</h1>
+            </div>
+            <nav>
+                <ul class="topmenu">
+                  <li><a href="" class="down">Бытовая техника</a>
+                    <ul class="submenu">
+                    <li><a href="">Стиральные машины</a></li>
+                    <li><a href="">Пылесосы</a></li>
+                    <li><a href="">Швейные, вышивальные машины</a></li>
+                    <li><a href="">Утюги</a></li>
+                    <li><a href="">Электровеники</a></li>
+                    <li><a href="">Сушилки для обуви</a></li>
+                    </ul>
+                </li>
+                 
+                    <li><a href="" class="down">Техника для кухни</a>
+                   <ul class="submenu">
+                      <li><a href="">Холодильники</a></li>
+                      <li><a href="">Кухонные плиты</a></li>
+                      <li><a href="">Швейные, вышивальные машины</a></li>
+                      <li><a href="">Морозильники</a></li>
+                      <li><a href="">Ростеры, мини-печи</a></li>
+                      <li><a href="">Вытяжки</a></li>
+                      <li><a href="">Микроволновые печи</a></li>
+                   </ul>
+                    </li>
+                       <li><a href="" class="down">Компьютерная техника</a>
+                      <ul class="submenu">
+                          <li><a href="">Ноутбуки</a></li>
+                          <li><a href="">Планшеты</a></li>
+                          <li><a href="">Компьютеры, моноблоки</a></li>
+                          <li><a href="">Игровые приставки</a></li>
+                          <li><a href="">Серверное оборудование</a></li>
+                      </ul>
+                        </li>
+                    
+                  <li><a href="">Корзина</a></li>
+                </ul>
+
+              </nav>
+           
+        
+    </header>
+<br>
+    <main>
+        <div class="form_wrapper">
+            <span>Оформите заказ</span>
+
+            <form class="sending_order" action="cart.html" method="GET">
+                <span>Заполните контактную информацию</span>
+
+                <p><label for="user_name">Имя *</label></p>
+                <p><input type="text" name="User_name" id="user_name" required size="30" maxlength="30"></p>
+
+                <p><label for="user_tel">Телефон *</label></p>
+                <p><input type="tel" name="User_tel" id="user_tel" required size="30" maxlength="30"></p>
+
+                <p><label for="user_email">E-mail *</label></p>
+                <p><input type="email" name="User_email" id="user_email" required size="30" maxlength="30"></p>
+
+
+                <span>Выберите способ доставки *</span>
+                <br>
+                <input type="radio" name="delivery_choice" id="pickup">
+                <label for="pickup">Самовывоз</label>
+
+                <div class="pickup_address">
+                    <address>Ул.Немига, дом 5</address>
+                    <iframe src="https://yandex.by/map-widget/v1/-/CKUjQ-OS" width="350" height="250"
+                        allowfullscreen></iframe>
+                </div>
+
+                <br>
+
+                <input type="radio" name="delivery_choice" id="courier_delivery">
+                <label for="courier_delivery">Доставка курьером</label>
+
+                <div class="courier_delivery_address">
+                    <input type="text" name="Courier_delivery_address" id="courier_delivery_address"
+                        placeholder="Адрес доставки" required size="30" maxlength="30" autocomplete="on">
+                </div>
+
+                <br>
+
+                <span>Добавьте комментарий к заказу</span>
+                <p><textarea name="order_comment" id="order_comment" cols="60" rows="7"></textarea></p>
+
+                <input type="checkbox" name="Agreement" id="agreement" required>
+                <label for="agreement">Соглашаетесь ли вы с условиями конфиденциальности? *</label>
+
+                <p>
+                    <input type="reset" name="reset" value="Очистить" />
+                    <input type="submit" value="Отправить" />
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="info_wrapper">
+            <h1 id="info">Контактные данные</h1>
+            <div class="email">
+                <p id="email"><strong>E-mail:</strong></p>
+                <p><a id="email_contact" href="mailto:vil.praxz@gmail.com">vil.praxz@gmail.com</a></p>
+                
+            </div>
+
+            <div class="tel">
+                <p id="tel"><strong>Телефон:</strong></p>
+                <p id="tel_contact"><a href="tel:">+3752973522XX</a></p>
+            </div>
+
+            <div class="address">
+                <p id="address"><strong>Адресс:</strong></p>
+                <p>Ул. Немига, дом 5</p>
+                <iframe src="https://yandex.by/map-widget/v1/-/CKUjQ-OS" width="560" height="400"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="work_time">
+                <p id="work_time"><strong>Время работы:</strong></p>
+                <p>9.00 - 21.00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
