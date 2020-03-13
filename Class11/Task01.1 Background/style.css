@@ -1,0 +1,13 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background{
+    background-image: url('img/sun.png'), url('img/sea.jpg'), url('img/sky.jpg');
+    background-position: 93% 5%, 0% 100%, 0% 100%;
+    background-size: 10%, 100%, 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
