@@ -1,0 +1,15 @@
+.soccer{
+    margin-top: 50px;
+    width: 1600px;
+    height: 200px;
+    background: rgb(223,254,74);
+    background: linear-gradient(90deg, rgba(223,254,74,0.7203256302521008) 0%, rgba(117,154,9,0.4542191876750701) 50%, rgba(0,9,1,1) 100%);
+}
+img{
+    transition: 2s;
+    
+}
+img:hover{
+    transform:  translate(1400px) rotate(360deg);
+    
+}

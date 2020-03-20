@@ -1,0 +1,29 @@
+img{
+    position: absolute;
+    left: 66px;
+    z-index: -1;
+}
+.TiCubi{
+    position: absolute;
+    width: 460px;
+    height: 135px;
+    background-color: white;
+    
+}
+.ApSogi{
+    position: absolute;
+    left: 528px;
+    top: 8px;
+    width: 462px;
+    height: 135px;
+    background-color: white;
+   
+}
+
+
+img:hover{
+    transform: translate(396px);
+    transition-timing-function: steps(6);
+    transition-duration: 0.8s;
+   
+}
